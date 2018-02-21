@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="CaeserCSS.css">
+	<body bgcolor="Black">
+	<script src = "playfair.js"></script>
+	<title> SET08101 - Playfair Cipher </title>
+	</head>
+	<body>
+		<h1><font color="Blue"> Enter in a key word for the Playfair cipher: </font></h1>
+		<font color="Blue"> Key Word:</font><br>
+		<input type="text" id="key">
+		</br>
+		<font color="Blue">Playfair Cipher: </font><br>
+		<input type="text" id="word">
+	    <button onclick="playfairEncrypt()">Encrypt</button>
+		<button onclick="playfairDecrypt()">Decrypt</button>
+		</br>
+		<div class="text-container">
+		<textarea id="textarea"></textarea>
+		<div class = "center">
+		<img src="source.gif" alt="binary">
+		</div>
+	</body>
+</html>
+		

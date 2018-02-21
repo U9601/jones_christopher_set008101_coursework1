@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CaeserCSS.css">
+		<body bgcolor="Black">
+		<script src = "functions.js"></script>
+		<title> SET08101 - Caeser Cipher </title>
+	</head>
+	<body>
+	<div class="row">
+  <div class="column2" style="background-color: #00c2ff";>
+		<div class="imgContainer">
+			<a href="HomePage.html">
+				<img src="homepage.jpg" height="100" width="100"/>
+			</a>
+			<ul>
+	  	<li><a href="homepage.html">Homepage</a></li>
+	  	<li><a href="Atbash.html">Atbash Cipher</a></li>
+	  	<li><a href="binary.html">Binary Cipher</a></li>
+			</ul>
+			</div>
+	</div>
+  <div class="column">
+</div>
+		<div class = "center">
+			<h1><font color="#00c2ff"> Enter in a word for the Caeser cipher: </font></h1>
+			<h3><font color="#00c2ff"> Shift Amount (1-26):</font></h3>
+			<input type="number" placeholder="Enter Shift" id="shift">
+		</br>
+			<h3><font color=" #00c2ff">Caeser Cipher: </font><br></h3>
+			<input type="text" placeholder="Enter Word" id="word">
+	    	<button onclick="caeserEncrypt()">Encrypt</button>
+				<button onclick="caeserDecrypt()">Decrypt</button>
+		</br>
+			<div class="text-container">
+				<textarea id="textarea"></textarea>
+			</div>
+			</br>
+			<br>
+			<br>
+				<marquee scrollamount="10"
+		  	direction="right"
+		  	behavior="scroll">
+				<img src="cipher-coin.jpg" height="200" width="200">
+		  	</marquee>
+				<marquee scrollamount="10"
+		  	direction="left"
+		  	behavior="scroll">
+				<img src="cipher-coin.jpg" height="200" width="200">
+		  	</marquee>
+				 <h1><font color="#00c2ff"> how to use the Caesar Cipher: </h1>
+					 <p><h3><font color="#00c2ff">1. Firstly, enter in the amount you wish to shift the alphabet by. For Exemple: A with shift 3 is D</h3></p>
+				</div>
+		</div>
+	</div>
+	</body>
+</html>

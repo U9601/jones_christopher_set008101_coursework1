@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CaeserCSS.css">
+		<body bgcolor="Black">
+		<script src = "functions.js"></script>
+		<title> SET08101 - Binary Cipher </title>
+	</head>
+	<body>
+		<div class="imgContainer">
+			<a href="HomePage.html">
+				<img src="homepage.jpg" height="100" width="100"/>
+			</a>
+			<ul>
+	  	<li><a href="homepage.html">Homepage</a></li>
+	  	<li><a href="Atbash.html">Atbash Cipher</a></li>
+	  	<li><a href="Caeser.html">Caesar Cipher</a></li>
+			</ul>
+			</div>
+		<div class = "center">
+			<h1><font color="#00c2ff"> Enter in a word for the Binary cipher: </font></h1>
+			<h3><font color="#00c2ff">Binary Cipher: </font><br></h3>
+			<input type="text" placeholder="Enter word" id="word">
+	  	<button onclick="BinaryEncrypt()">Encrypt</button>
+			<button onclick="BinaryDecrypt()">Decrypt</button>
+			</br>
+			<div class="text-container">
+					<textarea id="textarea"></textarea>
+			</div>
+		</br>
+		<br>
+		<br>
+			<marquee scrollamount="10"
+	  	direction="right"
+	  	behavior="scroll">
+			<img src="source.gif"height="200" width="300">
+	  	</marquee>
+			<marquee scrollamount="10"
+	  	direction="left"
+	  	behavior="scroll">
+			<img src="source.gif" height="200" width="300">
+	  	</marquee>
+			</div>
+	</body>
+</html>
