@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
 }
 .text-container {
-  background: black;
+  background: #00c2ff;
   padding: 20px;
   height: 100%;
   width: 100%;
@@ -14,7 +14,7 @@ body {
 }
 textarea {
   background: transparent;
-  color: #00c2ff;
+  color: black;
   resize: none;
   border: 0 none;
   width: 100%;
@@ -39,49 +39,29 @@ textarea {
     right: 0;
     height: 50%;
 }
-#top {
-    top: 0;
-    background-color: #00c2ff;
+body {
+   font-family: Ubuntu, sans-serif;
 }
-
-#bottom {
-    bottom: 0;
-    background-color: #00c2ff;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #00c2ff;
+    background-color: black;
 }
 
 li a {
     display: block;
-    color: #000;
+    color: #00c2ff;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #555;
-    color: blue;
+    background-color: white;
+    color: black;
 }
-
-.header {
-  width: 95%;
-    border: 1px solid #00c2ff;
-    padding: 15px;
-}
-.main {
-    width: 95%;
-    float: left;
-    padding: 15px;
-    border: 1px solid #00c2ff;
-}
-
 
 /* Create three equal columns that floats next to each other */
 .column {
