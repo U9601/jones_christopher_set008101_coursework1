@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<body bgcolor="#00c2ff">
+		<script src = "functions.js"></script>
+		<title> SET08101 - Caeser Cipher </title>
+	</head>
+	<body>
+	<div class="row">
+  <div class="column2" style="background-color: #00c2ff";>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+		<div class="imgContainer">
+			<a href="HomePage.html">
+				<img src="homepage.jpg" height="100" width="100"/>
+			</a>
+			<ul>
+	  	<li><a href="homepage.html">Homepage</a></li>
+	  	<li><a href="Atbash.html">Atbash Cipher</a></li>
+	  	<li><a href="binary.html">Binary Cipher</a></li>
+			<li><a href="Design.html">Design Page</a></li>
+			</ul>
+			</div>
+	</div>
+  <div class="column">
+</div>
+		<div class = "center">
+			<div class = "container">
+			<img src="binary.jpg" height="200" width="1080" alt = ""/>
+			<div class="centered"><h1><font color="black"><div class = "body"> Caesar Cipher: </font></h1></div>
+			</div>
+			<h3><font color="black"> Shift Amount (1-26):</font></h3>
+			<input type="number" placeholder="Enter Shift" id="shift">
+		</br>
+			<h3><font color=" black"> Enter in a Word for the Caeser Cipher: </font><br></h3>
+			<input type="text" placeholder="Enter Word" id="word">
+	    	<button onclick="caeserEncrypt()">Encrypt</button>
+				<button onclick="caeserDecrypt()">Decrypt</button>
+		</br>
+			<div class="text-container">
+				<textarea id="textarea"></textarea>
+			</div>
+			</br>
+			<br>
+			<br>
+				<marquee scrollamount="10"
+		  	direction="right"
+		  	behavior="scroll">
+				<img src="cipher-coin.png" height="200" width="200">
+		  	</marquee>
+				<marquee scrollamount="10"
+		  	direction="left"
+		  	behavior="scroll">
+				<img src="cipher-coin.png" height="200" width="200">
+		  	</marquee>
+				 <h1 id = "text"><font color="black"> how to Encrypt using the Caesar Cipher: </h1>
+					 <h3 id = "text2"> <font color="black">1. Enter in the amount you wish to shift the alphabet by. For Exemple: A with shift 3 is D</h3>
+						 <h3 id = "text3"><font color="black">2. Enter in the word you wish to encrypt and then click encrypt. The encrypted message will be displayed below</h3>
+					 <h1 id = "text4"><font color="black"> how to Decrypt using the Caesar Cipher: </h1>
+						  <h3 id = "text5"><font color="black">1. Enter in the shift that was used to encrypt the message</h3>
+								 <h3 id = "text6"><font color="black">2. Enter in the encypted message you wish to decrypt and click decrypt. The decrypted message will be displayed below</h3>
+									<button id = "button" onclick="howdoesitworkCaesar()">How does it actually work?</button>
+				</div>
+		</div>
+	</div>
+	</body>
+</html>
