@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="CaeserCSS.css">
+		<link rel="stylesheet" type="text/css" href="CSS.css">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
 		<body bgcolor="#00c2ff">
 		<script src = "functions.js"></script>
@@ -24,8 +24,11 @@
 		<div class="column">
 	 </div>
 		<div class = "center">
-			<h1><font color="black"> Enter in a word for the Binary cipher: </font></h1>
-			<h3><font color="black">Binary Cipher: </font><br></h3>
+			<div class = "container">
+			<img src="binary.jpg" height="200" width="1080" alt = ""/>
+			<div class="centered"><h1><font color="black"><div class = "body"> Binary cipher:  </font></h1></div>
+				</div>
+			<h3><font color="black">Please Enter in a Word for the Binary Cipher: </font><br></h3>
 			<input type="text" placeholder="Enter word" id="word">
 	  	<button onclick="BinaryEncrypt()">Encrypt</button>
 			<button onclick="BinaryDecrypt()">Decrypt</button>

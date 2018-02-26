@@ -186,7 +186,7 @@ var clickedThird = false;
 function howdoesitworkCaesar(){
 	document.getElementById('text').innerHTML = '';
 	document.getElementById('text2').innerHTML = "ENCRYPT: It first of all gets the shift and the word that is going to be encrypted and initliazes variables. Splits the word up into its seperate characters and checks to see if the charaters are in the alphabet. If it does match then it will change those character into there unicode varients. Then checks if the unicode characters are upper or lowercase and will add the shift to the unicode therefore changing the character. If the characters goes outside the upper/lowercase range of unicode then it will -26 (26 letters in the alphabet). Then the new charatcers and changed back from unicode to a string and are added to the output which is then put into the text area once the word has been fully encrypted";
-	document.getElementById('text3').innerHTML = "DECRTYPT: Pretty much the exact same except instead of adding the shift we minus it instead and again it goes outside the range then we +26";
+	document.getElementById('text3').innerHTML = "DECRYPT: Pretty much the exact same except instead of adding the shift we minus it instead and again it goes outside the range then we +26";
 	document.getElementById('text4').innerHTML = '';
 	document.getElementById('text5').innerHTML = '';
 	document.getElementById('text6').innerHTML = '';

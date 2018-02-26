@@ -1,0 +1,97 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.text-container {
+  background: #00c2ff;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+textarea {
+  background: transparent;
+  color: black;
+  resize: none;
+  border: 0 none;
+  width: 100%;
+  font-size: 5em;
+  outline: none;
+  height: 200%;
+  position: absolute;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.imgContainer{
+    float:left;
+}
+#top,
+#bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+body {
+   font-family: Ubuntu, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: #00c2ff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: right;
+    width: 10%;
+    height: 1000px;
+    padding: 10px;
+}
+.column2 {
+    float: left;
+    width: 10%;
+    height: 1000px;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
